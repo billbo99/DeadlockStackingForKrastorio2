@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2020-10-29
+  Changes:
+    - Fuel added
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2020-10-14
+  Changes:
+    - Added stacked ammo
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2020-10-14
+  Changes:
+    - Added stacked data cards
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2020-10-14
+  Changes:
+    - Added stacked steel pipes & pumps
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 28-June-2020
+  Changes:
+    - Some missing items in Krastorio2 are not stacked by default this adds the ones pointed out by Kythblood .. https://mods.factorio.com/mod/deadlock_stacked_recipes/discussion/5ef7b1c9beb552777252aed0

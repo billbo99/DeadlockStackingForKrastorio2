@@ -1,0 +1,15 @@
+{
+    "name": "DeadlockStackingForKrastorio2",
+    "version": "0.0.5",
+    "title": "Deadlock Stacking for Krastorio2",
+    "author": "billbo99",
+    "contact": "",
+    "homepage": "https://github.com/billbo99/DeadlockStackingForKrastorio2",
+    "factorio_version": "1.0",
+    "dependencies": [
+        "base",
+        "deadlock-beltboxes-loaders >= 2.3.0",
+        "Krastorio2"
+    ],
+    "description": "Stacking for Krastorio2 (some items are missing)"
+}
