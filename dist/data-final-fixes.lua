@@ -7,7 +7,7 @@ local function main()
         local icon_size = item.icon_size or nil
         local tech = item.tier
         local item_type = item.type or "item"
-        if data.raw[item_type][name] then
+        if data.raw[item_type][name] and data.raw.technology[tech] then
             if not data.raw.item["deadlock-stack-" .. name] then
                 log(name .. " :: " .. tech)
                 deadlock.add_stack(name, nil, tech, nil, item_type)
