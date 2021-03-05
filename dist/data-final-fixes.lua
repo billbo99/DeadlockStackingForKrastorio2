@@ -13,7 +13,12 @@ local function main()
                 deadlock.add_stack(name, nil, tech, nil, item_type)
             end
         else
-            log("not found ... data.raw[" .. item_type .. "][" .. name .. "]")
+            if not data.raw[item_type][name] then
+                log("not found ... data.raw[" .. item_type .. "][" .. name .. "]")
+            end
+            if not data.raw.technology[tech] then
+                log("not found ... data.raw.technology[" .. tech .. "]")
+            end
         end
     end
 end

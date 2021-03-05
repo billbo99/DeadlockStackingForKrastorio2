@@ -13,6 +13,14 @@ Items.items = {
     -- missing intermediates
     ["enriched-rare-metals"] = {tier = "kr-enriched-ores", sub_group = "raw-material", type = "item"},
     ["lithium-chloride"] = {tier = "kr-lithium-processing", sub_group = "raw-material", type = "item"},
+    -- extras
+    ["kr-advanced-transport-belt"] = {tier = "kr-logistic-4", sub_group = "transport", type = "item"},
+    ["kr-advanced-underground-belt"] = {tier = "kr-logistic-4", sub_group = "transport", type = "item"},
+    ["kr-advanced-splitter"] = {tier = "kr-logistic-4", sub_group = "transport", type = "item"},
+    ["kr-superior-transport-belt"] = {tier = "kr-logistic-5", sub_group = "transport", type = "item"},
+    ["kr-superior-underground-belt"] = {tier = "kr-logistic-5", sub_group = "transport", type = "item"},
+    ["kr-superior-splitter"] = {tier = "kr-logistic-5", sub_group = "transport", type = "item"},
+    ["kr-substation-mk2"] = {tier = "electric-energy-distribution-3", sub_group = "power", type = "item"},
     -- science packs
     ["blank-tech-card"] = {tier = "deadlock-stacking-1", sub_group = "science", type = "item"},
     ["biter-research-data"] = {tier = "military-science-pack", sub_group = "science", type = "item"},
