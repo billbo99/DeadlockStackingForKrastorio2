@@ -1,3 +1,3 @@
-# Deadlock Stacking for "Krastorio Legacy"
+# Deadlock Stacking for "Krastorio2"
 
-As it says on the box
+Stacking for Krastorio2 (some items are missing)
