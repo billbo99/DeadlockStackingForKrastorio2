@@ -16,7 +16,7 @@ end
 local function reenable_tech(force, tech)
     local recipes = force.recipes
     local force_tech = force.technologies[tech]
-    for _, effect in pairs(force_tech.effects) do
+    for _, effect in pairs(force_tech.prototype.effects) do
         if effect.type == "unlock-recipe" and starts_with(effect.recipe, "deadlock") then
             recipes[effect.recipe].enabled = true
             recipes[effect.recipe].reload()
